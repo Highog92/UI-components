@@ -1,6 +1,7 @@
 import buttons from './Buttons.module.scss'
 import HouseSVG from '../../assets/MaterialSymbolsLightHomeOutline.svg'
-export function UIbuttons() {
+
+function UIbuttons() {
 
     return (
         <>
@@ -11,3 +12,4 @@ export function UIbuttons() {
         </>
     )
 }
+export default UIbuttons

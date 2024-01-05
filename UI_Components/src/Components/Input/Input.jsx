@@ -1,6 +1,6 @@
 import inputs from './Input.module.scss'
 
-export function Input() {
+ function Input() {
 
     return (
         <>
@@ -11,3 +11,4 @@ export function Input() {
         </>
     )
 }
+export default Input

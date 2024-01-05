@@ -2,12 +2,12 @@ import navStyle from './navigation.module.scss'
 import HouseSVG from './MaterialSymbolsLightHomeOutline.svg'
 
 
-export function Navigation() {
+function Navigation() {
 
     return (
-        <section className={navStyle.navigation}>
-            <nav>
-                <img src={HouseSVG} alt="" />
+        <section >
+            <nav className={navStyle.navigation}>
+                <img src={HouseSVG} />
                 <ul>
                     <li>Home</li>
                     <li>Projects</li>
@@ -17,3 +17,5 @@ export function Navigation() {
         </section>
     )
 }
+
+export default Navigation

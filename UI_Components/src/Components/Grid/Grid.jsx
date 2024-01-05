@@ -1,6 +1,6 @@
 import grids from './Grid.module.scss'
 
-export function Grid() {
+function Grid() {
 
     return (
         <>
@@ -22,3 +22,4 @@ export function Grid() {
         </>
     )
 }
+export default Grid
